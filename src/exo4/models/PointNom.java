@@ -17,8 +17,9 @@ public class PointNom extends Point{
         this.name = name;
     }
 
-    public void affiche2 () {
-        affiche();
+    @Override
+    public void affiche () {
+        super.affiche();
         System.out.println(name);
     }
 }
